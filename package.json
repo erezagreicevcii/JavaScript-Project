@@ -14,8 +14,8 @@
   "author": "Ereza Greicevci",
   "type": "commonjs",
   "scripts": {
-    "start": "parcel starter/index.html --cache-dir C:\\Users\\ereza\\AppData\\Local\\Temp\\parcel-cache-forkify",
-    "build": "parcel build starter/index.html --dist-dir dist --cache-dir C:\\Users\\ereza\\AppData\\Local\\Temp\\parcel-cache-forkify"
+    "start": "parcel starter/index.html",
+    "build": "parcel build starter/index.html --dist-dir dist"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.16.4",
