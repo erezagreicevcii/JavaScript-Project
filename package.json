@@ -1,0 +1,24 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "homepage": "https://github.com/erezagreicevcii/JavaScript-Project#readme",
+  "bugs": {
+    "url": "https://github.com/erezagreicevcii/JavaScript-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erezagreicevcii/JavaScript-Project.git"
+  },
+  "license": "ISC",
+  "author": "Ereza Greicevci",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel starter/index.html --cache-dir C:\\Users\\ereza\\AppData\\Local\\Temp\\parcel-cache-forkify",
+    "build": "parcel build starter/index.html --dist-dir dist --cache-dir C:\\Users\\ereza\\AppData\\Local\\Temp\\parcel-cache-forkify"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  }
+}
